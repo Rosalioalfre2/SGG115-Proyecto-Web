@@ -1,0 +1,80 @@
+.body{
+    background-color: whitesmoke;
+}
+
+.titulo{
+    margin: 3% 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagen_tarjeta{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor {
+    max-width: auto;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer p:last-of-type{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.sidebar{
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .con-sidebar{
+        display:flex;
+        gap: 2rem;
+    }
+
+    .contenido-principal{
+        flex: 4;
+    }
+
+    .sidebar{
+        flex: 1;
+    }
+}
+
+@media(min-width: 1300px){
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .contenedor{
+        margin-bottom: 100px;
+    }
+}
+
+.boton{
+    width: 95%;
+    font-size: 1.2rem;
+    height: 15%;
+    margin-top: 10px;
+}
