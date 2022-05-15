@@ -21,8 +21,6 @@
     margin-bottom: 10px;
 }
 
-
-
 .footer{
     background-color: black;
     color: white;
@@ -75,6 +73,15 @@
 .boton{
     width: 95%;
     font-size: 1.2rem;
-    height: 15%;
+    height: 3rem;
     margin-top: 10px;
+    min-height: 2rem;
+}
+
+.article{
+    margin-top: 20px;
+}
+
+.article:first-child{
+    margin-top: 0;
 }
