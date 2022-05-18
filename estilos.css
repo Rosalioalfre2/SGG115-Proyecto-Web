@@ -12,6 +12,7 @@
 .imagen_tarjeta{
     width: 250px;
     height: 250px;
+    aspect-ratio: 1/1;
 }
 
 .contenedor {
@@ -96,4 +97,31 @@
 
 .margin-top-0{
     margin-top: 0;
+}
+
+.agenda{
+    text-align: center;
+}
+
+.tarjeta{
+    margin-top: 1rem;
+}
+
+.conclusiones{
+    max-width: 900px;
+    text-align: justify;
+}
+
+.conclusion-parrafo{
+    margin-top: 2rem;
+}
+
+.conclusion-parrafo:first-of-type{
+    margin-top: 0;
+}
+
+.recursos-contenedores{
+    border: 2px #000;
+    border-style: dashed;
+    padding: 1rem;
 }
